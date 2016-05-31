@@ -1,0 +1,14 @@
+<persistence version="2.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns="http://java.sun.com/xml/ns/persistence"
+         >
+    <persistence-unit name="jpa.unit">
+        <provider>org.datanucleus.api.jpa.PersistenceProviderImpl</provider>
+        <class>ru.kpfu.itis.Bicycle</class>
+        <exclude-unlisted-classes />
+        <properties>
+            <property name="datanucleus.ConnectionURL" value="appengine" />
+            <property name="datanucleus.appengine.ignorableMetaDataBehavior" value="NONE" />
+        </properties>
+    </persistence-unit>
+</persistence>
