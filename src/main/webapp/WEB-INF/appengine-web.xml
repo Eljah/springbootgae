@@ -7,5 +7,11 @@
     <system-properties>
         <property name="ae-cloudsql.cloudsql-database-url" value="jdbc:google:mysql://[INSTANCE_CONNECTION_NAME]/DATABASE-NAME?user=USERNAME&amp;password=PASSWORD" />
         <property name="ae-cloudsql.local-database-url" value="jdbc:mysql://localhost/springbootgae?user=root&amp;PASSWORD=tatarstan&amp;useSSL=false" />
+        <property name="os.version" value="1.0.GAE whatever" />
+        <property name="os.arch" value="GAE whatever" />
     </system-properties>
+    <class-loader-config>
+        <priority-specifier filename="luceneappengine-[LAE Version].jar"/>
+    </class-loader-config>
+
 </appengine-web-app>

@@ -40,7 +40,6 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.2.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.2.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.8" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.8" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.8" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.8" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.2" level="project" />
@@ -66,6 +65,16 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.google.appengine:appengine-testing:1.9.17" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.google.appengine:appengine-api-stubs:1.9.17" level="project" />
     <orderEntry type="library" name="Maven: com.google.appengine:appengine-api-labs:1.9.17" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.luceneappengine:luceneappengine:3.4.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.persistence:persistence-api:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.objectify:objectify:5.1.12" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:5.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:5.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queryparser:5.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queries:5.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-sandbox:5.5.0" level="project" />
     <orderEntry type="library" name="Maven: javax.jdo:jdo-api:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: javax.transaction:jta:1.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.datanucleus:datanucleus-core:3.1.1" level="project" />
