@@ -390,3 +390,7 @@ java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/la
 02:35:38,534 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
 02:35:38,694 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
 02:35:38,698 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=130 ms, enhance=34 ms, total=164 ms. Consult the log for full details
+02:44:11,709 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+02:44:11,799 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+02:44:11,958 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+02:44:11,962 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=128 ms, enhance=33 ms, total=161 ms. Consult the log for full details
