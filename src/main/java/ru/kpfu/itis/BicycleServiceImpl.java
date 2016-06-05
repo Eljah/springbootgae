@@ -2,18 +2,15 @@ package ru.kpfu.itis;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import javax.transaction.Transactional;
 import java.util.List;
 
 /**
  * Created by ilya on 31.05.16.
  */
 @Service
-@Transactional
 public class BicycleServiceImpl implements BicycleService{
     @Autowired
-    private BicycleRepository bikeRepository;
+    public BicycleRepository bikeRepository;
     //@Autowired
     //private BookOwnRepository bookOwnRepository; TODO
 

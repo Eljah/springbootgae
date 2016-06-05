@@ -1,23 +1,24 @@
 package ru.kpfu.itis;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.jdo.annotations.*;
 import java.io.Serializable;
 
 /**
  * Created by ilya on 31.05.16.
  */
-@Entity
+
+@PersistenceCapable
 public class Bicycle  implements Serializable {
     private static final long serialVersionUID = 1L;
-    @Id
-    @GeneratedValue
+
+    @PrimaryKey
+    @Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
     long id;
-    @Column(name="serial")
+
+    @Persistent
     String serialNumber;
     //Getters and Setters Here
+
 
     public long getId() {
         return id;

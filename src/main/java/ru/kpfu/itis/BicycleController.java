@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping(value = "/bicycles")
 public class BicycleController {
     @Autowired
-    private BicycleService bikeService;
+    public BicycleService bikeService;
     @RequestMapping(value = "/add/{serial}")
     public Bicycle addBicycle(@PathVariable String serial) {
         Bicycle bike = new Bicycle();
@@ -33,7 +33,7 @@ public class BicycleController {
     }
 
     @RequestMapping(value = "/{id}")
-    public Bicycle getBicycle(@PathVariable int id) {
+    public Bicycle getBicycle(@PathVariable long id) {
         Bicycle bike = bikeService.findOne(id);
         return bike;
     }

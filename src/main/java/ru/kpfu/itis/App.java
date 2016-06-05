@@ -6,14 +6,19 @@ import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 //import org.gmr.web.multipart.GMultipartResolver;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Scope;
-import org.springframework.context.annotation.ScopedProxyMode;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceBuilder;
+import org.springframework.context.annotation.*;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.servlet.DispatcherServlet;
 
+import javax.sql.DataSource;
+
 @SpringBootApplication
+@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+@ComponentScan("ru.kpfu.itis")
 public class App {
 
     @Bean
@@ -34,4 +39,23 @@ public class App {
     //    multipartResolver.setMaxUploadSize(maxUploadSize);
     //    return multipartResolver;
     //}
+
+    //@Bean
+    //@Primary
+    //public DataSource dataSource() {
+    //    return DataSourceBuilder
+    //            .create()
+    //            .username("root")
+    //            .password("tatarstan")
+    //            .url("jdbc:mysql://localhost/springbootgae?user=root&amp;PASSWORD=tatarstan&amp;useSSL=false")
+                //.url("jdbc:google:rdbms:INSTANCE_NAME/DATABASE_NAME")
+                //.driverClassName("com.google.appengine.api.rdbms.AppEngineDriver")
+    //            .driverClassName("com.mysql.jdbc.Driver")
+    //            .build();
+
+        //jdbc.driverClassName=com.mysql.jdbc.GoogleDriver
+        //jdbc.url=jdbc:google:mysql://my-app-id:my-instance/my_table?user=user
+        //jdbc.username=user
+        //jdbc.password=user
+   // }
 }

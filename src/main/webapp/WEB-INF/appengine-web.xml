@@ -3,4 +3,9 @@
     <application>springbootgae</application>
     <version>1</version>
     <threadsafe>true</threadsafe>
+    <use-google-connector-j>true</use-google-connector-j>
+    <system-properties>
+        <property name="ae-cloudsql.cloudsql-database-url" value="jdbc:google:mysql://[INSTANCE_CONNECTION_NAME]/DATABASE-NAME?user=USERNAME&amp;password=PASSWORD" />
+        <property name="ae-cloudsql.local-database-url" value="jdbc:mysql://localhost/springbootgae?user=root&amp;PASSWORD=tatarstan&amp;useSSL=false" />
+    </system-properties>
 </appengine-web-app>
