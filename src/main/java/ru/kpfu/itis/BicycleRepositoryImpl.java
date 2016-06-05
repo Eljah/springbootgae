@@ -2,7 +2,9 @@ package ru.kpfu.itis;
 
 import org.springframework.stereotype.Repository;
 
+import javax.jdo.FetchGroup;
 import javax.jdo.PersistenceManager;
+import javax.jdo.Query;
 import java.util.List;
 
 /**
@@ -17,7 +19,26 @@ public class BicycleRepositoryImpl implements BicycleRepository {
 
     @Override
     public List<Bicycle> findAll() {
-        return null;
+        PersistenceManager pm = PMF.get().getPersistenceManager();
+        Query q = pm.newQuery(Bicycle.class);
+        //q.setFilter("lastName == lastNameParam");
+        q.setOrdering("serialNumber desc");
+        //q.declareParameters("String lastNameParam");
+        List<Bicycle> results = null;
+        try {
+            results = (List<Bicycle>) q.execute();
+            if (!results.isEmpty()) {
+            //    for (Person p : results) {
+            //        // Process result p
+            //    }
+            } else {
+                // Handle "no results" case
+            }
+        } finally {
+            q.closeAll();
+            return results;
+        }
+
     }
 
     @Override
