@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <title>Hello AngularJS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script src="search.js"></script>
+</head>
+
+<body>
+<div ng-controller="Search">
+
+        <li ng-repeat="searchc in searching">
+            Id: {{ searchc.id}}<br>
+            Serial: {{ searchc.serialNumber}}
+        </li>
+
+
+    <p>The ID is {{searching.id}}</p>
+    <p>The content is {{searching.serialNumber}}</p>
+</div>
+</body>
+</html>

@@ -394,3 +394,63 @@ java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/la
 02:44:11,799 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
 02:44:11,958 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
 02:44:11,962 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=128 ms, enhance=33 ms, total=161 ms. Consult the log for full details
+22:37:12,290 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+22:37:12,373 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+22:37:12,531 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+22:37:12,535 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=130 ms, enhance=31 ms, total=161 ms. Consult the log for full details
+22:39:25,996 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+22:39:26,087 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+22:39:26,245 (main) INFO  [DataNucleus.Enhancer] - Class "ru.kpfu.itis.Bicycle" is already enhanced.
+22:39:26,246 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=140 ms, enhance=18 ms, total=158 ms. Consult the log for full details
+22:40:06,241 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+22:40:06,344 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+22:40:06,502 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+22:40:06,506 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=128 ms, enhance=32 ms, total=160 ms. Consult the log for full details
+22:41:12,224 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+22:41:12,326 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+22:41:12,504 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+22:41:12,507 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=146 ms, enhance=34 ms, total=180 ms. Consult the log for full details
+22:44:00,554 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+22:44:00,637 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+22:44:00,810 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+22:44:00,814 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=138 ms, enhance=37 ms, total=175 ms. Consult the log for full details
+22:47:50,227 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+22:47:50,316 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+22:47:50,503 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+22:47:50,507 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=154 ms, enhance=37 ms, total=191 ms. Consult the log for full details
+22:48:42,656 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+22:48:42,741 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+22:48:42,901 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+22:48:42,904 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=130 ms, enhance=32 ms, total=162 ms. Consult the log for full details
+22:50:02,113 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+22:50:02,212 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+22:50:02,397 (main) INFO  [DataNucleus.Enhancer] - Class "ru.kpfu.itis.Bicycle" is already enhanced.
+22:50:02,397 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=164 ms, enhance=20 ms, total=184 ms. Consult the log for full details
+22:50:26,915 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+22:50:26,999 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+22:50:27,162 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+22:50:27,165 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=134 ms, enhance=31 ms, total=165 ms. Consult the log for full details
+22:53:46,561 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+22:53:46,639 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+22:53:46,813 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+22:53:46,817 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=142 ms, enhance=35 ms, total=177 ms. Consult the log for full details
+23:01:25,457 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+23:01:25,560 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+23:01:25,759 (main) INFO  [DataNucleus.Enhancer] - Class "ru.kpfu.itis.Bicycle" is already enhanced.
+23:01:25,759 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=170 ms, enhance=28 ms, total=198 ms. Consult the log for full details
+23:03:28,110 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+23:03:28,201 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+23:03:28,366 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+23:03:28,370 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=135 ms, enhance=33 ms, total=168 ms. Consult the log for full details
+23:10:21,159 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+23:10:21,249 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+23:10:21,455 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+23:10:21,460 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=173 ms, enhance=37 ms, total=210 ms. Consult the log for full details
+23:11:33,786 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+23:11:33,882 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+23:11:34,054 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+23:11:34,059 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=144 ms, enhance=33 ms, total=177 ms. Consult the log for full details
+23:13:19,748 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+23:13:19,852 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+23:13:20,044 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Java\projects\springbootgae\target\springbootgae-0.1-SNAPSHOT\WEB-INF\classes\ru\kpfu\itis\Bicycle.class" with enhanced definition
+23:13:20,047 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=160 ms, enhance=34 ms, total=194 ms. Consult the log for full details

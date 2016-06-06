@@ -37,7 +37,7 @@ public class BicycleRepositoryImpl implements BicycleRepository {
         StandardAnalyzer analyzer = new StandardAnalyzer();
         org.apache.lucene.search.Query q = null;
         try {
-            q = new org.apache.lucene.queryparser.classic.QueryParser("serialNumber", analyzer).parse("\""+name+"\"~0.8");
+            q = new org.apache.lucene.queryparser.classic.QueryParser("serialNumber", analyzer).parse(name+"~0.8");
         } catch (ParseException e) {
             log.severe("Search query is not parceble "+name);
             e.printStackTrace();

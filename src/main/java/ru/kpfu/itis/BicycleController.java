@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.List;
 
@@ -12,6 +13,7 @@ import java.util.List;
 public class BicycleController {
     @Autowired
     public BicycleService bikeService;
+    @CrossOrigin(origins = "http://localhost:8080")
     @RequestMapping(value = "/add/{serial}")
     public Bicycle addBicycle(@PathVariable String serial) {
         Bicycle bike = new Bicycle();
@@ -27,16 +29,20 @@ public class BicycleController {
         bookService.delete(id);
     }
     */
+    @CrossOrigin(origins = "http://localhost:8080")
     @RequestMapping(value = "/")
     public List<Bicycle> getBicycles() {
         return bikeService.findAll();
     }
 
+    @CrossOrigin(origins = "http://localhost:8080")
     @RequestMapping(value = "/{id}")
     public Bicycle getBicycle(@PathVariable long id) {
         Bicycle bike = bikeService.findOne(id);
         return bike;
     }
+
+    @CrossOrigin(origins = "http://localhost:8080")
     @RequestMapping(value = "/search/serial/{serial}")
     public List<Bicycle> getBookBySerialNumber(@PathVariable String serial) {
         List<Bicycle> bikes = bikeService.findBySerialNumber(serial);
